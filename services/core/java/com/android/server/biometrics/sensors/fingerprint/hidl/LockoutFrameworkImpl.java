@@ -105,33 +105,10 @@ public class LockoutFrameworkImpl implements LockoutTracker {
         mLockoutResetCallback.onLockoutReset(userId);
     }
 
-    void addFailedAttemptForUser(int userId) {
-        if (Settings.System.getInt(mContext.getContentResolver(),
-                Settings.System.FINGERPRINT_LOCKOUT, 0) == 1) {
-            return;
-        }
-        mFailedAttempts.put(userId, mFailedAttempts.get(userId, 0) + 1);
-        mTimedLockoutCleared.put(userId, false);
-
-        if (getLockoutModeForUser(userId) != LOCKOUT_NONE) {
-            scheduleLockoutResetForUser(userId);
-        }
-    }
+    void addFailedAttemptForUser(int userId) {}
 
     @Override
     public @LockoutMode int getLockoutModeForUser(int userId) {
-        if (Settings.System.getInt(mContext.getContentResolver(),
-                Settings.System.FINGERPRINT_LOCKOUT, 0) == 1) {
-            return LOCKOUT_NONE;
-        }
-        final int failedAttempts = mFailedAttempts.get(userId, 0);
-        if (failedAttempts >= MAX_FAILED_ATTEMPTS_LOCKOUT_PERMANENT) {
-            return LOCKOUT_PERMANENT;
-        } else if (failedAttempts > 0
-                && !mTimedLockoutCleared.get(userId, false)
-                && (failedAttempts % MAX_FAILED_ATTEMPTS_LOCKOUT_TIMED == 0)) {
-            return LOCKOUT_TIMED;
-        }
         return LOCKOUT_NONE;
     }
 
