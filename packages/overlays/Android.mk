@@ -20,47 +20,47 @@ LOCAL_LICENSE_KINDS := SPDX-license-identifier-Apache-2.0
 LOCAL_LICENSE_CONDITIONS := notice
 LOCAL_NOTICE_FILE := $(LOCAL_PATH)/../../NOTICE
 LOCAL_REQUIRED_MODULES := \
-	DisplayCutoutEmulationCornerOverlay \
-	DisplayCutoutEmulationDoubleOverlay \
-	DisplayCutoutEmulationHoleOverlay \
-	DisplayCutoutEmulationTallOverlay \
-	DisplayCutoutEmulationWaterfallOverlay \
-	FontNotoSerifSourceOverlay \
-	IconPackCircularAndroidOverlay \
-	IconPackCircularLauncherOverlay \
-	IconPackCircularSettingsOverlay \
-	IconPackCircularSystemUIOverlay \
-	IconPackCircularThemePickerOverlay \
-        IconPackPUIAndroidOverlay \
-        IconPackPUILauncherOverlay \
-        IconPackPUISettingsOverlay \
-        IconPackPUISystemUIOverlay \
-        IconPackPUIThemePickerOverlay \
-	IconPackVictorAndroidOverlay \
-	IconPackVictorLauncherOverlay \
-	IconPackVictorSettingsOverlay \
-	IconPackVictorSystemUIOverlay \
-	IconPackVictorThemePickerOverlay \
-	IconPackSamAndroidOverlay \
-	IconPackSamLauncherOverlay \
-	IconPackSamSettingsOverlay \
-	IconPackSamSystemUIOverlay \
-	IconPackSamThemePickerOverlay \
-	IconPackKaiAndroidOverlay \
-	IconPackKaiLauncherOverlay \
-	IconPackKaiSettingsOverlay \
-	IconPackKaiSystemUIOverlay \
-	IconPackKaiThemePickerOverlay \
-	IconPackFilledAndroidOverlay \
-	IconPackFilledLauncherOverlay \
-	IconPackFilledSettingsOverlay \
-	IconPackFilledSystemUIOverlay \
-	IconPackFilledThemePickerOverlay \
-	IconPackRoundedAndroidOverlay \
-	IconPackRoundedLauncherOverlay \
-	IconPackRoundedSettingsOverlay \
-	IconPackRoundedSystemUIOverlay \
-	IconPackRoundedThemePickerOverlay \
+    DisplayCutoutEmulationCornerOverlay \
+    DisplayCutoutEmulationDoubleOverlay \
+    DisplayCutoutEmulationHoleOverlay \
+    DisplayCutoutEmulationTallOverlay \
+    DisplayCutoutEmulationWaterfallOverlay \
+    FontNotoSerifSourceOverlay \
+    IconPackCircularAndroidOverlay \
+    IconPackCircularLauncherOverlay \
+    IconPackCircularSettingsOverlay \
+    IconPackCircularSystemUIOverlay \
+    IconPackCircularThemePickerOverlay \
+    IconPackPUIAndroidOverlay \
+    IconPackPUILauncherOverlay \
+    IconPackPUISettingsOverlay \
+    IconPackPUISystemUIOverlay \
+    IconPackPUIThemePickerOverlay \
+    IconPackVictorAndroidOverlay \
+    IconPackVictorLauncherOverlay \
+    IconPackVictorSettingsOverlay \
+    IconPackVictorSystemUIOverlay \
+    IconPackVictorThemePickerOverlay \
+    IconPackSamAndroidOverlay \
+    IconPackSamLauncherOverlay \
+    IconPackSamSettingsOverlay \
+    IconPackSamSystemUIOverlay \
+    IconPackSamThemePickerOverlay \
+    IconPackKaiAndroidOverlay \
+    IconPackKaiLauncherOverlay \
+    IconPackKaiSettingsOverlay \
+    IconPackKaiSystemUIOverlay \
+    IconPackKaiThemePickerOverlay \
+    IconPackFilledAndroidOverlay \
+    IconPackFilledLauncherOverlay \
+    IconPackFilledSettingsOverlay \
+    IconPackFilledSystemUIOverlay \
+    IconPackFilledThemePickerOverlay \
+    IconPackRoundedAndroidOverlay \
+    IconPackRoundedLauncherOverlay \
+    IconPackRoundedSettingsOverlay \
+    IconPackRoundedSystemUIOverlay \
+    IconPackRoundedThemePickerOverlay \
     IconPackOOSAndroidOverlay \
     IconPackOOSLauncherOverlay \
     IconPackOOSSettingsOverlay \
@@ -72,9 +72,9 @@ LOCAL_REQUIRED_MODULES := \
     IconPackOutlineAndroidOverlay \
     IconPackOutlineSettingsOverlay \
     IconPackOutlineSystemUIOverlay \
-	IconPackXperiaAndroidOverlay \
-	IconPackXperiaSettingsOverlay \
-	IconPackXperiaSystemUIOverlay \
+    IconPackXperiaAndroidOverlay \
+    IconPackXperiaSettingsOverlay \
+    IconPackXperiaSystemUIOverlay \
     IconPackPlumpySystemUIOverlay \
     IconPackPlumpyAndroidOverlay \
     IconPackAuroraAndroidOverlay \
@@ -83,14 +83,14 @@ LOCAL_REQUIRED_MODULES := \
     IconPackGradiconSystemUIOverlay \
     IconPackLornAndroidOverlay \
     IconPackLornSystemUIOverlay \
-	NavigationBarMode3ButtonOverlay \
-	NavigationBarModeGesturalOverlay \
-	NavigationBarModeGesturalOverlayNarrowBack \
-	NavigationBarModeGesturalOverlayWideBack \
-	NavigationBarModeGesturalOverlayExtraWideBack \
-	TransparentNavigationBarOverlay \
-	NotesRoleEnabledOverlay \
-	preinstalled-packages-platform-overlays.xml
+    NavigationBarMode3ButtonOverlay \
+    NavigationBarModeGesturalOverlay \
+    NavigationBarModeGesturalOverlayNarrowBack \
+    NavigationBarModeGesturalOverlayWideBack \
+    NavigationBarModeGesturalOverlayExtraWideBack \
+    TransparentNavigationBarOverlay \
+    NotesRoleEnabledOverlay \
+    preinstalled-packages-platform-overlays.xml
 
 include $(BUILD_PHONY_PACKAGE)
 include $(CLEAR_VARS)
